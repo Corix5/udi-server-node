@@ -34,7 +34,7 @@ app.use('/api/equipments', equipmentRouter);
 app.use('/api/registers', registerRouter);
 app.use('/api/login', adminRouter);
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3001;
 
 app.listen(PORT, () => {
     console.log(`El servidor está en el puerto ${PORT}`);
